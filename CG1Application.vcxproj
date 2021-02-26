@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{55C2F2CB-E232-4245-8D7A-14D73C26B176}</ProjectGuid>
+    <RootNamespace>CG1Application</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>$(DefaultPlatformToolset)</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>$(DefaultPlatformToolset)</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>$(DefaultPlatformToolset)</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>$(DefaultPlatformToolset)</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)build\VC-$(VisualStudioVersion)\CG1Application\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)build\VC-$(VisualStudioVersion)-x86_64\CG1Application\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">build\VC-$(VisualStudioVersion)\CG1Application\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">build\VC-$(VisualStudioVersion)-x86_64\CG1Application\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)build\VC-$(VisualStudioVersion)\CG1Application\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)build\VC-$(VisualStudioVersion)-x86_64\CG1Application\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">build\VC-$(VisualStudioVersion)\CG1Application\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">build\VC-$(VisualStudioVersion)-x86_64\CG1Application\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_GLFW_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>dependencies\GLFW\include;dependencies\glad\include;dependencies;source</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_GLFW_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>dependencies\GLFW\include;dependencies\glad\include;dependencies;source</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_GLFW_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <OpenMPSupport>true</OpenMPSupport>
+      <AdditionalIncludeDirectories>dependencies\GLFW\include;dependencies\glad\include;dependencies;source</AdditionalIncludeDirectories>
+      <OmitFramePointers>true</OmitFramePointers>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_GLFW_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <OpenMPSupport>true</OpenMPSupport>
+      <AdditionalIncludeDirectories>dependencies\GLFW\include;dependencies\glad\include;dependencies;source</AdditionalIncludeDirectories>
+      <OmitFramePointers>true</OmitFramePointers>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Applications\Uebungen\U_Project.h" />
+    <ClInclude Include="source\CGContext\CG.h" />
+    <ClInclude Include="source\CGContext\CGContext.h" />
+    <ClInclude Include="source\CGContext\CGFragmentOperations.h" />
+    <ClInclude Include="source\CGContext\CGFrameBuffer.h" />
+    <ClInclude Include="source\CGContext\CGMath.h" />
+    <ClInclude Include="source\CGContext\CGMatrix.h" />
+    <ClInclude Include="source\CGContext\CGPrimClipper.h" />
+    <ClInclude Include="source\CGContext\CGPrimitiveOperations.h" />
+    <ClInclude Include="source\CGContext\CGProgram.h" />
+    <ClInclude Include="source\CGContext\CGProgramInterface.h" />
+    <ClInclude Include="source\CGContext\CGRasterizer.h" />
+    <ClInclude Include="source\CGContext\CGRectangle.h" />
+    <ClInclude Include="source\CGContext\CGShape.h" />
+    <ClInclude Include="source\CGContext\CGTexture.h" />
+    <ClInclude Include="source\CGContext\CGVector.h" />
+    <ClInclude Include="source\CGContext\CGVertexOperations.h" />
+    <ClInclude Include="source\Applications\Application.h" />
+    <ClInclude Include="source\Applications\Uebungen\U_FourPoints.h" />
+    <ClInclude Include="source\Applications\Uebungen\U_JumpingLine.h" />
+    <ClInclude Include="source\Applications\Uebungen\U_LineBenchmark.h" />
+    <ClInclude Include="source\Applications\Uebungen\U_TestBresenham.h" />
+    <ClInclude Include="source\Applications\Uebungen\U_TestRotatingTriangle.h" />
+    <ClInclude Include="source\Applications\Uebungen\U_TestViewport.h" />
+    <ClInclude Include="source\Applications\Uebungen\U_TestProjection.h" />
+    <ClInclude Include="source\Applications\Uebungen\U_HappyHolidays.h" />
+    <ClInclude Include="source\Applications\Uebungen\U_AwesomeTriangle.h" />
+    <ClInclude Include="source\Applications\Uebungen\U_Lighting.h" />
+    <ClInclude Include="source\Applications\Uebungen\U_Texturing.h" />
+    <ClInclude Include="source\ShaderPrograms\Program_modelViewProjection.h" />
+    <ClInclude Include="source\ShaderPrograms\Program_passThrough.h" />
+    <ClInclude Include="source\ShaderPrograms\Program_perVertexLighting.h" />
+    <ClInclude Include="source\ShaderPrograms\Program_phong.h" />
+    <ClInclude Include="source\ShaderPrograms\Program_projectVertex.h" />
+    <ClInclude Include="source\ShaderPrograms\Program_testVertex.h" />
+    <ClInclude Include="source\Utilities\CGImageFile.h" />
+    <ClInclude Include="source\Utilities\CGQuadric.h" />
+    <ClInclude Include="source\Utilities\Deer.h" />
+    <ClInclude Include="source\Utilities\DeerVertexData.h" />
+    <ClInclude Include="source\Utilities\Snowflakes.h" />
+    <ClInclude Include="source\Utilities\CG1Helper\CG1Helper.h" />
+    <ClInclude Include="source\Utilities\CG1Helper\glutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Applications\Uebungen\U_Project.cpp" />
+    <ClCompile Include="source\CGContext\CGContext.cpp" />
+    <ClCompile Include="source\CGContext\CGFragmentOperations.cpp" />
+    <ClCompile Include="source\CGContext\CGFrameBuffer.cpp" />
+    <ClCompile Include="source\CGContext\CGMatrix.cpp" />
+    <ClCompile Include="source\CGContext\CGPrimClipper.cpp" />
+    <ClCompile Include="source\CGContext\CGPrimitiveOperations.cpp" />
+    <ClCompile Include="source\CGContext\CGRasterizer_line.cpp" />
+    <ClCompile Include="source\CGContext\CGRasterizer_line_bresenham.cpp" />
+    <ClCompile Include="source\CGContext\CGRasterizer_line_stupid.cpp" />
+    <ClCompile Include="source\CGContext\CGRasterizer_point.cpp" />
+    <ClCompile Include="source\CGContext\CGRasterizer_triangle.cpp" />
+    <ClCompile Include="source\CGContext\CGShape.cpp" />
+    <ClCompile Include="source\CGContext\CGTexture.cpp" />
+    <ClCompile Include="source\CGContext\CGVertexOperations.cpp" />
+    <ClCompile Include="source\Applications\CG1Main.cpp" />
+    <ClCompile Include="source\Applications\Uebungen\U_FourPoints.cpp" />
+    <ClCompile Include="source\Applications\Uebungen\U_JumpingLine.cpp" />
+    <ClCompile Include="source\Applications\Uebungen\U_LineBenchmark.cpp" />
+    <ClCompile Include="source\Applications\Uebungen\U_TestBresenham.cpp" />
+    <ClCompile Include="source\Applications\Uebungen\U_TestRotatingTriangle.cpp" />
+    <ClCompile Include="source\Applications\Uebungen\U_TestViewport.cpp" />
+    <ClCompile Include="source\Applications\Uebungen\U_TestProjection.cpp" />
+    <ClCompile Include="source\Applications\Uebungen\U_HappyHolidays.cpp" />
+    <ClCompile Include="source\Applications\Uebungen\U_AwesomeTriangle.cpp" />
+    <ClCompile Include="source\Applications\Uebungen\U_Lighting.cpp" />
+    <ClCompile Include="source\Applications\Uebungen\U_Texturing.cpp" />
+    <ClCompile Include="source\Utilities\CGImageFile.cpp" />
+    <ClCompile Include="source\Utilities\CGQuadric.cpp" />
+    <ClCompile Include="source\Utilities\Deer.cpp" />
+    <ClCompile Include="source\Utilities\Snowflakes.cpp" />
+    <ClCompile Include="source\Utilities\CG1Helper\CG1Helper.cpp" />
+    <ClCompile Include="dependencies\glad\src\glad.c" />
+    <ClCompile Include="dependencies\GLFW\src\context.c" />
+    <ClCompile Include="dependencies\GLFW\src\init.c" />
+    <ClCompile Include="dependencies\GLFW\src\input.c" />
+    <ClCompile Include="dependencies\GLFW\src\monitor.c" />
+    <ClCompile Include="dependencies\GLFW\src\vulkan.c" />
+    <ClCompile Include="dependencies\GLFW\src\window.c" />
+    <ClCompile Include="dependencies\GLFW\src\xkb_unicode.c" />
+    <ClCompile Include="dependencies\GLFW\src\wgl_context.c" />
+    <ClCompile Include="dependencies\GLFW\src\win32_init.c" />
+    <ClCompile Include="dependencies\GLFW\src\win32_joystick.c" />
+    <ClCompile Include="dependencies\GLFW\src\win32_monitor.c" />
+    <ClCompile Include="dependencies\GLFW\src\win32_thread.c" />
+    <ClCompile Include="dependencies\GLFW\src\win32_time.c" />
+    <ClCompile Include="dependencies\GLFW\src\win32_window.c" />
+    <ClCompile Include="dependencies\GLFW\src\osmesa_context.c" />
+    <ClCompile Include="dependencies\GLFW\src\egl_context.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

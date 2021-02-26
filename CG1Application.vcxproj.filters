@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dependencies\glad\src\glad.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\context.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\init.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\input.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\monitor.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\vulkan.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\window.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\xkb_unicode.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\wgl_context.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\win32_init.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\win32_joystick.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\win32_monitor.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\win32_thread.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\win32_time.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\win32_window.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\osmesa_context.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\GLFW\src\egl_context.c">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Applications\CG1Main.cpp">
+      <Filter>Applications</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utilities\CG1Helper\CG1Helper.cpp">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Applications\Uebungen\U_JumpingLine.cpp">
+      <Filter>Applications\Uebungen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Applications\Uebungen\U_FourPoints.cpp">
+      <Filter>Applications\Uebungen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Applications\Uebungen\U_LineBenchmark.cpp">
+      <Filter>Applications\Uebungen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Applications\Uebungen\U_TestBresenham.cpp">
+      <Filter>Applications\Uebungen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Applications\Uebungen\U_TestRotatingTriangle.cpp">
+      <Filter>Applications\Uebungen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Applications\Uebungen\U_TestViewport.cpp">
+      <Filter>Applications\Uebungen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Applications\Uebungen\U_TestProjection.cpp">
+      <Filter>Applications\Uebungen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Applications\Uebungen\U_HappyHolidays.cpp">
+      <Filter>Applications\Uebungen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Applications\Uebungen\U_AwesomeTriangle.cpp">
+      <Filter>Applications\Uebungen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Applications\Uebungen\U_Lighting.cpp">
+      <Filter>Applications\Uebungen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Applications\Uebungen\U_Texturing.cpp">
+      <Filter>Applications\Uebungen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CGContext\CGContext.cpp">
+      <Filter>CGContext</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CGContext\CGFragmentOperations.cpp">
+      <Filter>CGContext</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CGContext\CGFrameBuffer.cpp">
+      <Filter>CGContext</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utilities\CGImageFile.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CGContext\CGMatrix.cpp">
+      <Filter>CGContext</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CGContext\CGPrimClipper.cpp">
+      <Filter>CGContext</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CGContext\CGPrimitiveOperations.cpp">
+      <Filter>CGContext</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utilities\CGQuadric.cpp">
+      <Filter>CGContext</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CGContext\CGRasterizer_line_bresenham.cpp">
+      <Filter>CGContext</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CGContext\CGRasterizer_line_stupid.cpp">
+      <Filter>CGContext</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CGContext\CGRasterizer_point.cpp">
+      <Filter>CGContext</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CGContext\CGRasterizer_triangle.cpp">
+      <Filter>CGContext</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CGContext\CGTexture.cpp">
+      <Filter>CGContext</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CGContext\CGVertexOperations.cpp">
+      <Filter>CGContext</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utilities\Deer.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utilities\Snowflakes.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CGContext\CGRasterizer_line.cpp">
+      <Filter>CGContext</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Applications\Uebungen\U_Project.cpp">
+      <Filter>Applications\Uebungen</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CGContext\CGShape.cpp">
+      <Filter>CGContext</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Applications\Application.h">
+      <Filter>Applications</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utilities\CG1Helper\CG1Helper.h">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Applications\Uebungen\U_FourPoints.h">
+      <Filter>Applications\Uebungen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Applications\Uebungen\U_JumpingLine.h">
+      <Filter>Applications\Uebungen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Applications\Uebungen\U_LineBenchmark.h">
+      <Filter>Applications\Uebungen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Applications\Uebungen\U_TestBresenham.h">
+      <Filter>Applications\Uebungen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Applications\Uebungen\U_TestRotatingTriangle.h">
+      <Filter>Applications\Uebungen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Applications\Uebungen\U_TestViewport.h">
+      <Filter>Applications\Uebungen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Applications\Uebungen\U_TestProjection.h">
+      <Filter>Applications\Uebungen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Applications\Uebungen\U_HappyHolidays.h">
+      <Filter>Applications\Uebungen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Applications\Uebungen\U_AwesomeTriangle.h">
+      <Filter>Applications\Uebungen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Applications\Uebungen\U_Lighting.h">
+      <Filter>Applications\Uebungen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Applications\Uebungen\U_Texturing.h">
+      <Filter>Applications\Uebungen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CG.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CGContext.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CGFragmentOperations.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CGFrameBuffer.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utilities\CGImageFile.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CGMath.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CGMatrix.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CGPrimClipper.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CGPrimitiveOperations.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CGProgram.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CGProgramInterface.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utilities\CGQuadric.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CGRasterizer.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CGRectangle.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CGTexture.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CGVector.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CGVertexOperations.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utilities\Deer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utilities\DeerVertexData.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utilities\CG1Helper\glutil.h">
+      <Filter>Utilities\CG1Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ShaderPrograms\Program_modelViewProjection.h">
+      <Filter>ShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ShaderPrograms\Program_passThrough.h">
+      <Filter>ShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ShaderPrograms\Program_perVertexLighting.h">
+      <Filter>ShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ShaderPrograms\Program_phong.h">
+      <Filter>ShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ShaderPrograms\Program_projectVertex.h">
+      <Filter>ShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ShaderPrograms\Program_testVertex.h">
+      <Filter>ShaderPrograms</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utilities\Snowflakes.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Applications\Uebungen\U_Project.h">
+      <Filter>Applications\Uebungen</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGContext\CGShape.h">
+      <Filter>CGContext</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CGContext">
+      <UniqueIdentifier>{7f7e9d24-dce7-4af6-9db2-2a2f52c618b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Applications">
+      <UniqueIdentifier>{22f824fc-73d3-4f33-aeb6-39f87affa52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Applications\Uebungen">
+      <UniqueIdentifier>{6444d2fd-638e-4cfd-9ad9-e1a8cf11f8cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{498d6329-4423-4f3e-9e5a-c58ac1cafb5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\CG1Helper">
+      <UniqueIdentifier>{c4d158f7-5072-4432-8530-2a0936f14206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderPrograms">
+      <UniqueIdentifier>{441a411b-a30f-434a-964d-b7f69cf02db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Applications\Project">
+      <UniqueIdentifier>{5e145ed9-0fac-4786-9fba-744af0ee841e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
